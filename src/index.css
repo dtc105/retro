@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "VGA-437";
+    src: url("./assets/fonts/vga437/vga-437.ttf") format("truetype"),
+         url("./assets/fonts/vga437/vga-437-win.ttf") format("truetype");
+}
+
+html,
+body,
+#root {
+    width: 100svw;
+    height: 100svh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
